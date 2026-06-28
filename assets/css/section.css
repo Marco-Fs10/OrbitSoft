@@ -1,0 +1,28 @@
+/* ====== HERO ====== */
+
+#inicio {
+    background-color: var(--secundaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.6rem 6.25rem 4.6rem 4.5rem;
+    margin-bottom: 10rem;
+}
+
+.hero-imagem {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-imagem img {
+  height: 18.5rem;
+  width: auto;
+}
+
+.hero-texto {
+    height: 18.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 40%;
+}
