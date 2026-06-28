@@ -55,3 +55,51 @@
     flex-direction: column;
     max-width: 50%;
 }
+
+
+/* ====== SERVICOS ====== */
+
+#servicos {
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5rem 3.5rem;
+    align-items: center;
+}
+
+.servicos-imagem {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.servicos-imagem img {
+    height: 30rem;
+    width: auto;
+}
+
+.servicos-grid {
+    height: 30rem;
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.servicos-card {
+    border-radius: 1.5rem;
+}
+
+.container-titulo-card {
+    text-align: center;
+    background-color: var(--terciaria);
+    padding: 1rem;
+}
+
+.container-card-text {
+    padding: 1rem;
+    background-color: var(--secundaria);
+    height: 10rem;
+}
