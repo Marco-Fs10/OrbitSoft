@@ -1,0 +1,50 @@
+:root {
+    /* ========== CORES ========== */
+
+    --primaria: #16263B;
+    --secundaria: #1F2D52;
+
+    /* ========== TIPOGRAFIA ========== */
+
+    
+    /* Font Families */
+    --font-primary: ;
+
+    /* Font Size Base */
+    --font-size-base: 1rem;  /* 16px */
+
+    /* Font Sizes - Escala 1.25 */
+    --font-size-xs: calc(var(--font-size-base) * 0.75);      /* 12px */
+    --font-size-sm: calc(var(--font-size-base) * 0.875);     /* 14px */
+    --font-size-md: var(--font-size-base);                    /* 16px */
+    --font-size-lg: calc(var(--font-size-base) * 1.125);     /* 18px */
+    --font-size-xl: calc(var(--font-size-base) * 1.5);       /* 24px */
+    --font-size-2xl: calc(var(--font-size-base) * 1.875);    /* 30px */
+    --font-size-3xl: calc(var(--font-size-base) * 2.5);      /* 40px */
+    --font-size-4xl-tight: calc(var(--font-size-base) * 3);  /* 48px */
+    --font-size-4xl: calc(var(--font-size-base) * 3.5);      /* 56px */
+    --font-size-5xl: calc(var(--font-size-base) * 4.5);      /* 72px */
+    --font-size-7xl: calc(var(--font-size-base) * 5.5);      /* 88px */
+    --font-size-9xl: calc(var(--font-size-base) * 6.5);      /* 104px */
+
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+
+    /* Line Heights */
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
