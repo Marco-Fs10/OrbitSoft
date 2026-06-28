@@ -10,13 +10,13 @@
 }
 
 .hero-imagem {
-  display: flex;
-  justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .hero-imagem img {
-  height: 18.5rem;
-  width: auto;
+    height: 18.5rem;
+    width: auto;
 }
 
 .hero-texto {
@@ -25,4 +25,33 @@
     flex-direction: column;
     gap: 2.5rem;
     max-width: 40%;
+}
+
+
+/* ====== QUEM SOMOS ====== */
+
+#quem-somos {
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 6.25rem 9rem 4.5rem;
+    align-items: center;
+}
+
+.quem-somos-imagem {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.quem-somos-imagem img {
+    height: 27.5rem;
+    width: auto;
+}
+
+.quem-somos-texto {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
 }
