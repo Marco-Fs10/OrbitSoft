@@ -1,0 +1,173 @@
+/* ====== RESPONSIVIDADE ====== */
+
+@media (max-width: 1024px) {
+    #inicio,
+    #quem-somos,
+    #servicos {
+        padding: 3rem 2rem;
+        gap: 2rem;
+    }
+
+    .hero-texto {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .quem-somos-texto {
+        max-width: 100%;
+    }
+
+    .servicos-grid {
+        max-width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .contato-wrapper {
+        padding: 2rem;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .contato-info,
+    .contato-form {
+        width: 100%;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    footer div {
+        max-width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 11rem;
+    }
+
+    header {
+        height: auto;
+        grid-template-columns: 1fr;
+        padding: 1rem 1.25rem;
+        gap: 1rem;
+    }
+
+    .logo-header {
+        justify-content: center;
+    }
+
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #inicio,
+    #quem-somos,
+    #servicos,
+    #video-institucional,
+    #contato {
+        padding: 2rem 1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    #inicio,
+    #quem-somos,
+    #servicos {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-imagem,
+    .quem-somos-imagem,
+    .servicos-imagem {
+        display: none;
+    }
+
+    .servicos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container-card-text {
+        height: auto;
+    }
+
+    .video-wrapper iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    .header-contato {
+        padding: 1.5rem;
+    }
+
+    .contato-wrapper {
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+
+    .contato-info {
+        padding: 1.5rem;
+        height: auto;
+        width: 100%;
+    }
+
+    .contato-form {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer div {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-top: 12.5rem;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    nav ul {
+        gap: 0.65rem;
+    }
+
+    nav ul a {
+        font-size: 0.92rem;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-texto h1 {
+        font-size: 2rem;
+    }
+
+    .header-contato,
+    .container-text-video {
+        padding: 0;
+    }
+
+    .contato-form input,
+    .contato-form textarea,
+    .contato-form button {
+        border-radius: 0.8rem;
+    }
+}
