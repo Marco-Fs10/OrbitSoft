@@ -91,6 +91,7 @@
 .servicos-card {
     border-radius: 2rem;
     overflow: hidden;
+    box-shadow: .2rem .4rem rgba(0, 0, 0, 0.285);
 }
 
 .container-titulo-card {
