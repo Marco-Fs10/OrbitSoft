@@ -46,9 +46,16 @@
     }
 }
 
+@media (max-width: 840px) {
+    .quem-somos-imagem,
+    .servicos-imagem {
+        display: none;
+   }
+}
+
 @media (max-width: 768px) {
     body {
-        padding-top: 11rem;
+        padding-top: 15rem;
     }
 
     header {
@@ -131,11 +138,15 @@
     footer div {
         max-width: 100%;
     }
+
+    .footer-logo {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 480px) {
     body {
-        padding-top: 12.5rem;
+        padding-top: 15rem;
     }
 
     header {
