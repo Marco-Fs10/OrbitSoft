@@ -180,3 +180,24 @@
 .contato-form button:hover {
     transform: scale(1.02);
 }
+
+
+/* ====== VIDEO ======= */
+
+#video-institucional {
+    padding: 5rem;
+}
+
+.video-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.container-text-video {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
