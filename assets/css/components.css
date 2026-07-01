@@ -65,24 +65,6 @@ p strong {
     color: #00BFA6;
 }
 
-
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: var(--footer);
-}
-
-.footer-logo img {
-  height: 10rem;
-  width: auto;
-}
-
-footer div {
-    display: flex;
-    flex-direction: column;
-}
-
 address {
     display: flex;
     flex-direction: column;
@@ -94,4 +76,54 @@ address {
     display: flex;
     align-items: start;
     gap: .6rem;
+    color: var(--branco);
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--footer);
+}
+
+.footer-logo img {
+  height: auto;
+  width: 17rem;
+}
+
+.footer-logo {
+    gap: 0rem;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    gap: 1rem;
+}
+
+footer div a {
+    text-decoration: none;
+    color: var(--branco);
+    transition: .3s ease-in-out;
+}
+
+footer div a:hover {
+    color: #00BFA6;
+}
+
+footer div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.container-icon-footer {
+    display: flex;
+    align-items: start;
+    color: var(--branco);
+    max-width: none;
+    justify-content: space-between;
 }
