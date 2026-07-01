@@ -74,7 +74,7 @@
 }
 
 .servicos-imagem img {
-    height: 30rem;
+    height: 25rem;
     width: auto;
 }
 
@@ -89,7 +89,8 @@
 }
 
 .servicos-card {
-    border-radius: 1.5rem;
+    border-radius: 2rem;
+    overflow: hidden;
 }
 
 .container-titulo-card {
@@ -101,5 +102,81 @@
 .container-card-text {
     padding: 1rem;
     background-color: var(--secundaria);
-    height: 10rem;
+    height: 12rem;
+}
+
+
+/* ====== CONTATO ====== */
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0rem;
+}
+
+.header-contato {
+    padding: 4rem;
+    background-color: var(--secundaria);
+    align-items: center;
+}
+
+.contato-wrapper {
+    display: flex;
+    padding: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    border-radius: 2rem;
+    background-color: var(--secundaria);
+    padding: 3.5rem;
+    width: 38%;
+    height: 20rem;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    gap: 1.5rem;
+    height: 20rem;
+}
+
+.contato-form input, textarea {
+    all: unset; 
+    width: 100%;
+    background-color: var(--secundaria);
+    padding: .7rem;
+    border-radius: 1rem;
+    transition: .3s ease-in-out;
+    color: var(--branco);
+}
+
+.contato-form input:focus, textarea:focus {
+    border: .1rem solid #00BFA6;
+    outline: none;
+}
+
+.contato-form button {
+    all: unset; 
+    width: 90%;
+    border-radius: 1rem;
+    padding: .7rem;
+    background-color: var(--button);
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.contato-form button:hover {
+    transform: scale(1.02);
 }
